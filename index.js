@@ -5,7 +5,7 @@ const EMAIL = require('./email');
 
 const server = http.createServer(async (req, res) => {
     //set the request route
-    if (req.url === "/api" && req.method === "POST") {
+    if (req.url === "/send-email" && req.method === "POST") {
         const response = await new EMAIL().sendEmail(req);
         console.log("Email response", response)
         /**Setting up response */
