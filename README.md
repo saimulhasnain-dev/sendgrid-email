@@ -9,7 +9,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the Yarn(https://yarnpkg.co
 ```sh
 git clone git@https://github.com/saimulhasnain-dev/sendgrid-email.git # or clone your own fork
 cd sendgrid-email
-npm install or yarm
+npm install or yarn
 npm start
 ```
 
