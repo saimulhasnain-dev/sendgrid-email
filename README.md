@@ -10,7 +10,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the Yarn(https://yarnpkg.co
 git clone git@https://github.com/saimulhasnain-dev/sendgrid-email.git # or clone your own fork
 cd sendgrid-email
 npm install or yarn
-npm start
+npm start or nodemon or node index.js
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
